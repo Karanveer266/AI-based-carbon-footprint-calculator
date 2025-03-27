@@ -17,8 +17,8 @@ st.set_page_config(
 )
 
 # API Key for accessing OpenRouter.ai to use the Gemma 3 language model
-# This key is used for all AI analysis functions in the application
-GEMMA_API_KEY = "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"
+# You can go to openrouter and get an API Key for free and past the key in the following code line
+GEMMA_API_KEY = "" # Paste your API Key here
 
 def encode_image(image_path: str) -> str:
     """
